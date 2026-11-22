@@ -94,3 +94,14 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+/* footer */
+footer {
+    background-color: #7C6A46;
+}
+
+.footer-box {
+    max-width: 1500px;
+    margin-inline: auto;
+    padding: 80px 16px;
+}
