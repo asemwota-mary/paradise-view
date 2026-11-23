@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .about-hero {
     background-image: url('./images/about-hero.png');
@@ -93,4 +95,102 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+/* footer */
+footer {
+    background-color: #7C6A46;
+    color: #ffffff;
+}
+
+.footer-box {
+    max-width: 1500px;
+    margin-inline: auto;
+    padding: 80px 16px;
+
+    display: grid;
+    grid-template-columns: 1.8fr 0.7fr 0.7fr 0.7fr 1.4fr;
+    gap: 60px;
+}
+
+.footer-box h3 {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.footer-item {
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-item .title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 500;
+    margin-block: 20px 12px;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    background: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.newsletter-form input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #806e4b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.newsletter-form button:hover {
+    background-color: #604510;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(217, 217, 217, 0.5);
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
 }
