@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.contact-hero {
+    background-image: url('./images/about-hero.png');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    background-color:#7C6A4680;
+    width: 100%;
+    height: 100%;
+}
+
+.texts {
+    color: #FFFFFF;
+    width: 600px;
+    text-align: center;
+    z-index: 10;
+    padding-inline: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.texts h3 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.texts p {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 48px;
+    line-height: 26px;
+}
+
+.contact-form {
+    max-width: 1500px;
+    margin-inline: auto;
+    padding: 80px 16px;
+}
+
+form {
+    font-family: 'Mulish', sans-serif;
+}
+
+.form-row {
+    display: flex;
+    gap: 60px;
+}
+
+.form-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000B2;
+    font-weight: 400;
+}
+
+.textarea-box {
+    margin-top: 36px;
+}
+
+.form-item input {
+    border: .5px solid #1C1C1C;
+    padding: 24px;
+    outline: none;
+}
+
+textarea {
+    border: .5px solid #1C1C1C;
+    padding: 24px;
+    height: 300px;
+    resize: none;
+    outline: none;
+}
+
+input:active {
+    border: 1px solid #7C6A46;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    background-color: #7C6A46;
+    color: #ffffff;
+}
+
+.footer-box {
+    max-width: 1500px;
+    margin-inline: auto;
+    padding: 80px 16px;
+
+    display: grid;
+    grid-template-columns: 1.8fr 0.7fr 0.7fr 0.7fr 1.4fr;
+    gap: 60px;
+}
+
+.footer-box h3 {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.footer-item {
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-item .title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 500;
+    margin-block: 20px 12px;
+    font-family: "Raleway", sans-serif;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    background: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.newsletter-form input {
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 14px;
+}
+
+.newsletter-form button {
+    background-color: #806e4b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.newsletter-form button:hover {
+    background-color: #604510;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(217, 217, 217, 0.5);
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
